@@ -4,7 +4,7 @@ import { FaDeleteLeft } from "react-icons/fa6";
 
 const InputCard = (props) => {
   const renderDeleteButton = () => {
-    if (props.label === "Stop") {
+    if (props.label.includes("Stop")) {
       return (
         <FaDeleteLeft className={styles.deleteButton} onClick={props.onClick} />
       );

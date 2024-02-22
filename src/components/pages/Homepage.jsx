@@ -43,7 +43,7 @@ const Homepage = () => {
           <InputCard
             key={stopCard.id}
             src={StopLogo}
-            label="Stop"
+            label={`Stop ${stopCard.id}`} 
             onClick={() => stopCardRemoveHandler(stopCard.id)}
           />
         ))}
