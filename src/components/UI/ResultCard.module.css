@@ -1,0 +1,45 @@
+.card {
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid #e9eef2;
+  border-style:ridge;
+  width: 450px;
+  overflow: hidden;
+}
+
+.upperSection {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+.distanceText {
+  font-weight: bold;
+  font-size: large;
+  font-size: 20px;
+}
+
+.distanceNumber {
+  font-weight: bold;
+  font-size: 25px;
+  color: #0079ff;
+}
+
+.bottomSection {
+  padding: 15px 40px;
+  font-size: 13px;
+  background-color: #e9eef2;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 20px auto;
+  }
+  .bottomSection {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #e9eef2;
+  }
+}

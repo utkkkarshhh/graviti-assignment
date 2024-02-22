@@ -1,0 +1,31 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+}
+
+.interactiveArea {
+  padding: 10px 20px;
+}
+
+.mapArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  width: 550px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .map {
+    width: auto;
+    height: 62vh;
+  }
+}

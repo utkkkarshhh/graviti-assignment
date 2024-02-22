@@ -1,0 +1,29 @@
+.addAnotherButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.addAnotherButton:hover {
+  cursor: pointer !important;
+  color: rgb(40, 39, 39);
+}
+
+.addLogo {
+  height: 18px;
+  width: 18px;
+}
+
+.ctaText {
+  margin: 0 0;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .addAnotherButton {
+    margin: 0 25px 0 10px;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+  }
+}

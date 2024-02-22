@@ -1,0 +1,23 @@
+.btn1 {
+  color: white;
+  font-size: 15px;
+  background-color: #1b31a8;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  background-color: #2339b3;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn1 {
+    margin: 20px auto 10px auto;
+    font-size: 15px;
+    display: block;
+  }
+}
