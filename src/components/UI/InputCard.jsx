@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./InputCard.module.css";
+import { FaDeleteLeft } from "react-icons/fa6";
 
 const InputCard = (props) => {
+  const renderDeleteButton = () => {
+    if (props.label === "Stop") {
+      return (
+        <FaDeleteLeft className={styles.deleteButton} onClick={props.onClick} />
+      );
+    }
+    return null;
+  };
   return (
     <div className={styles.inputComponent}>
       <label className={styles.inputLabel}>{props.label}</label>
@@ -25,6 +34,7 @@ const InputCard = (props) => {
             <option value="los angeles, ca">Los Angeles</option>
           </select>
         </div>
+        {renderDeleteButton()}
       </div>
     </div>
   );
