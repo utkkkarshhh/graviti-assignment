@@ -36,10 +36,21 @@
 @media only screen and (max-width: 600px) {
   .card {
     margin: 20px auto;
+    width: 100%;
+  }
+  .upperSection {
+    padding: 17px;
+  }
+  .distanceText {
+    font-size: 18px;
+  }
+  
+  .distanceNumber {
+    font-size: 22px;
   }
   .bottomSection {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 13px;
     background-color: #e9eef2;
   }
 }
