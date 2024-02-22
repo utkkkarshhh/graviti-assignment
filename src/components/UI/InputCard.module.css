@@ -8,7 +8,7 @@
   background-color: white !important;
   border-radius: 10px;
   align-items: center;
-  border: 1px solid #E9EEF2;
+  border: 1px solid #e9eef2;
 }
 
 .inputLabel {
@@ -32,7 +32,7 @@ select {
   width: 20px;
 }
 
-.deleteButton{
+.deleteButton {
   width: 25px;
   color: rgb(154, 226, 154);
   height: auto;
@@ -40,7 +40,7 @@ select {
 }
 
 .deleteButton:hover {
-  cursor: pointer!important;
+  cursor: pointer !important;
   color: rgb(66, 65, 65);
 }
 
@@ -53,8 +53,7 @@ select {
   .inputLabel {
     display: none;
   }
-  .deleteButton{
-    margin-left: 210px;
+  .deleteButton {
+    margin-left: 100px;
   }
-  
 }
