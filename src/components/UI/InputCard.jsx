@@ -3,6 +3,7 @@ import styles from "./InputCard.module.css";
 import { FaDeleteLeft } from "react-icons/fa6";
 
 const InputCard = (props) => {
+
   const renderDeleteButton = () => {
     if (props.label.includes("Stop")) {
       return (
@@ -19,20 +20,13 @@ const InputCard = (props) => {
           <img src={props.src} alt="InputDrowpdownVector" />
         </div>
         <div>
-          <select name="city" id="city">
-            <option value="chicago, il">Chicago</option>
-            <option value="st louis, mo">St Louis</option>
-            <option value="joplin, mo">Joplin, MO</option>
-            <option value="oklahoma city, ok">Oklahoma City</option>
-            <option value="amarillo, tx">Amarillo</option>
-            <option value="gallup, nm">Gallup, NM</option>
-            <option value="flagstaff, az">Flagstaff, AZ</option>
-            <option value="winona, az">Winona</option>
-            <option value="kingman, az">Kingman</option>
-            <option value="barstow, ca">Barstow</option>
-            <option value="san bernardino, ca">San Bernardino</option>
-            <option value="los angeles, ca">Los Angeles</option>
-          </select>
+          <input
+            className={styles.inputArea}
+            type="text"
+            placeholder={props.placeholder}
+            value={props.value}
+            onChange={props.onChange}
+          ></input>
         </div>
         {renderDeleteButton()}
       </div>

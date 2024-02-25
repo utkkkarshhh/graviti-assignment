@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       <Header />
-      <p className="heading">Let's calculate <b>distance</b> from Google maps</p>
+      <p className="heading">
+        Let's calculate <b>distance</b> from Google maps
+      </p>
       <Homepage />
     </div>
   );

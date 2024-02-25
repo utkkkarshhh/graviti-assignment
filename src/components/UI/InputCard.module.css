@@ -16,8 +16,7 @@
   margin-bottom: 10px;
 }
 
-select {
-  -webkit-appearance: none;
+.inputArea {
   border: none;
   outline: none;
   font-family: "IBM Plex Sans", sans-serif;
